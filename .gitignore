@@ -1,0 +1,77 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node / Web
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+build/
+dist/
+.cache/
+.parcel-cache/
+.vite/
+.next/
+out/
+
+# IDEs & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+config.json
+secrets.json
+
+# Database & Logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+*.bak
+
+# Compiled / Binary
+*.exe
+*.dll
+*.bin
+*.o
+*.obj
+
+# Misc
+*.zip
+*.tar.gz
+*.7z
