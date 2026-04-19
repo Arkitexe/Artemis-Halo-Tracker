@@ -1,10 +1,10 @@
-# Artemis — Halo Infinite Server Tracker
+# Artemis Halo Tracker
 
 **Real-time Azure datacenter detection for Halo Infinite matches.**
 
 Artemis is a Windows application that identifies which Microsoft Azure region your current Halo Infinite match is hosted on, the moment you connect. Halo itself never displays this information—if you've ever felt "something feels off with the connection," there's a decent chance you were sent to a server across the country or overseas.
 
-![Artemis GUI Preview](gui_preview_match_in_progress.png)
+![Artemis Screenshot](screenshot.png)
 
 ## Features
 
@@ -17,6 +17,7 @@ Artemis is a Windows application that identifies which Microsoft Azure region yo
 ## What It Does (And Doesn't Do)
 
 **Artemis does NOT:**
+
 - Modify Halo Infinite in any way
 - Read or write Halo's memory
 - Inject into the game process
@@ -36,11 +37,12 @@ It simply observes the network traffic your computer already produces and transl
 ### Option 2: Run from Source
 
 **Requirements:**
+
 - Windows 10 or later
 - Python 3.9+
 - Administrator privileges (required for packet capture)
 
-```powershell
+```bash
 # Clone the repository
 git clone https://github.com/Arkitexe/Artemis-Halo-Tracker.git
 cd Artemis-Halo-Tracker
@@ -50,5 +52,3 @@ pip install psutil pydivert Pillow
 
 # Run with admin privileges (required for UDP capture)
 python artemis.py
-
-Add README.md
