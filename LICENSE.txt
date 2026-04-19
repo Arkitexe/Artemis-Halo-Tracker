@@ -1,0 +1,47 @@
+ARTEMIS -- by Arkitexe
+====================================================================
+
+This program is a personal tool for detecting the Azure server your
+Halo Infinite matches are hosted on. It is not affiliated with,
+endorsed by, or sponsored by Microsoft, 343 Industries, or any
+Halo or Xbox brand.
+
+USE AT YOUR OWN RISK
+--------------------
+
+Artemis uses standard Windows networking interfaces (psutil for TCP
+and the WinDivert kernel filter driver for UDP) to observe traffic
+from the Halo Infinite process. It does not:
+
+  - Read, write, or modify memory in the Halo Infinite process
+  - Inject code into any game process
+  - Modify game files or installation
+  - Communicate with the game's servers on your behalf
+  - Alter gameplay, matchmaking, or game state in any way
+
+The tool passively observes network traffic from your own computer.
+However, the use of any third-party tool alongside a multiplayer
+game is solely at your own discretion and risk. The author makes
+no guarantees regarding compatibility with anti-cheat systems or
+the publisher's terms of service.
+
+NO WARRANTY
+-----------
+
+This software is provided "as is" without warranty of any kind.
+The author is not liable for any damages, account actions, data
+loss, or other consequences arising from use of this software.
+
+LOGS AND DATA
+-------------
+
+Artemis writes match logs to the "Artemis Logs" folder on your
+Desktop. These files contain:
+
+  - IP addresses and ports of servers you connect to
+  - Timestamps of match start/end events
+  - Packet statistics (counts, sizes, RTT estimates) per server
+
+No data is transmitted anywhere. Everything stays on your PC.
+
+By installing, you acknowledge you've read and accept these terms.
